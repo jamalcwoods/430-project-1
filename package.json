@@ -1,0 +1,26 @@
+{
+  "name": "430_proj1",
+  "version": "1.0.0",
+  "description": "Project 1",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamalcwoods/430-project-1.git"
+  },
+  "author": "Jamal Woods",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jamalcwoods/430-project-1/issues"
+  },
+  "homepage": "https://github.com/jamalcwoods/430-project-1#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
