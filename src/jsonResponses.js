@@ -1,17 +1,4 @@
-const figures = {
-  0: {
-      "name":"Beyoncé Knowles",
-      "dob":"September 4, 1981"
-  },
-  1: {
-      "name":"Barack Obama",
-      "dob":"August 4, 1961"
-  },
-  2: {
-      "name":"Oprah Winfrey",
-      "dob":"January 29, 1954"
-  }
-}
+const figures = require('./../client/figures.json');
 
 
 // general JSON response function

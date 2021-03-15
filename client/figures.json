@@ -1,14 +1,177 @@
-[
-    {
+{
+    "0": {
         "name":"Beyoncé Knowles",
-        "dob":"September 4, 1981"
+        "dob":"September 4, 1981",
+        "dod":"-",
+        "about":"Beyoncé Knowles first captured the public's eye as lead vocalist of the R&B group Destiny's Child. She later established a solo career with her debut album Dangerously in Love, becoming one of music's top-selling artists with sold-out tours and a slew of awards. Knowles has also starred in several films, including Dream Girls. She married hip-hop recording artist Jay-Z in 2008 and the couple has three children. She also holds the record for most Grammy wins ever by a female artist with 28.",
+        "img":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTU0MTU0MTc3NzkzMTA3MzU1/beyonce-attends-tidal-x-1015-on-october-15-2016-in-new-york-city-photo-by-theo-wargogetty-images-for-tidal-sqaure.jpg"
     },
-    {
+    "1": {
         "name":"Barack Obama",
-        "dob":"August 4, 1961"
+        "dob":"August 4, 1961",
+        "dod":"-",
+        "about":"Barack Obama was the 44th president of the United States and the first African American commander-in-chief. He served two terms, in 2008 and 2012. The son of parents from Kenya and Kansas, Obama was born and raised in Hawaii. He graduated from Columbia University and Harvard Law School, where he was president of the Harvard Law Review. After serving on the Illinois State Senate, he was elected a U.S. senator representing Illinois in 2004. He and wife Michelle Obama have two daughters, Malia and Sasha.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg"
     },
-    {
+    "2": {
         "name":"Oprah Winfrey",
-        "dob":"January 29, 1954"
+        "dob":"January 29, 1954",
+        "dod":"-",
+        "about":"Oprah Winfrey is a talk show host, media executive, actress and billionaire philanthropist. She’s best known for being the host of her own, wildly popular program, The Oprah Winfrey Show, which aired for 25 seasons, from 1986 to 2011. In 2011, Winfrey launched her own TV network, the Oprah Winfrey Network (OWN). Born in the rural town of Kosciusko, Mississippi, Winfrey moved to Baltimore in 1976, where she hosted People Are Talking. Afterward, she was recruited by a Chicago TV station to host her own morning show.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTY2NTIzMDQzOTIzODk1NTM4/oprah-photo-by-vera-anderson_wireimage.jpg"
+    },
+    "3":{
+        "name":"Kareem Abdul-Jabbar",
+        "dob":"April 16, 1947",
+        "dod":"-",
+        "about":"A dominant high school basketball player, Kareem Abdul-Jabbar was recruited to play at UCLA and led the Bruins to three national titles. His dominance continued in the NBA, first for the Milwaukee Bucks, and later the Los Angeles Lakers. Abdul-Jabbar won six titles and six MVP awards, and finished as the league's all-time scorer. He retired in 1989 and is widely considered one of the greatest players in NBA history, and his talent was celebrated as early as high school.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NTU2MzE1NjcyNDQ2NDc1/kareem-abduljabbar-9174053-402.jpg"
+    },
+    "4":{
+        "name":"Ben Carson",
+        "dob":"September 18, 1951",
+        "dod":"-",
+        "about":"Ben Carson went from being a poor student to receiving academic honors and eventually attending medical school. As a doctor, he became director of pediatric neurosurgery at Johns Hopkins Hospital at age 33 and earned fame for his groundbreaking work separating conjoined twins. He retired from medicine in 2013, and two years later he entered politics, making a bid to become the Republican candidate for U.S. president. Carson dropped out of the race in March 2016 and became a vocal supporter of Republican nominee Donald Trump, eventually earning selection as President Trump's secretary of the Department of Housing and Urban Development.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNDkyMjE0Mjg1/ben-carson-475422-1-402.jpg"
+    },
+    "5":{
+        "name":"Tina Turner",
+        "dob":"November 26, 1939",
+        "dod":"-",
+        "about":"Tina Turner began performing with musician Ike Turner in the 1950s. They became known as the Ike and Tina Turner Revue, achieving popular acclaim for their live performances and recordings like the top 5 hit 'Proud Mary' until Tina left in the 1970s after years of domestic abuse. Following a slow start to her solo career, Turner achieved massive success with her 1984 album Private Dancer. She went on to deliver more chart-topping albums and hit singles and was elected into the Rock and Roll Hall of Fame in 1991. The revered singer later became involved in the spiritual Beyond project and married longtime boyfriend Erwin Bach in July 2013.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwNzA5OTM5NzI2/tina-turner-9512276-1-402.jpg"
+    },
+    "6":{
+        "name":"Tiger Woods",
+        "dob":"December 30, 1975",
+        "dod":"-",
+        "about":"Pro golfer Tiger Woods won the U.S. Masters at Augusta in 1997 with a record score at age 21, making him the youngest man and the first African American to earn the title. Woods won another 13 majors and was named the PGA Player of the Year 10 times over the next 12 years, but he struggled to regain his top form after personal problems surfaced in 2009. With his victory at the 2019 Masters, Woods claimed his first major title in nearly 11 years, and he went on to tie Sam Snead's career record of 82 PGA Tour wins later that year.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NDg0MDU1MTcwNDgzNzI3/tiger-woods-9536492-1-402.jpg"
+    },
+    "7":{
+        "name":"Kobe Bryant",
+        "dob":"August 23, 1978",
+        "dod":"January 26, 2020",
+        "about":"Kobe Bryant spent his early years in Italy and joined the NBA straight out of high school. A dominant scorer, Bryant won five NBA championships and the 2008 MVP Award with the Los Angeles Lakers. Although later seasons were marred by injuries, he surpassed Michael Jordan for third place on the NBA all-time scoring list in December 2014 and retired in 2016 after scoring 60 points in his final game. In 2018, Bryant earned an Academy Award for Best Animated Short Film for Dear Basketball. On January 26, 2020, he was in a helicopter crash that killed Bryant, his 13-year-old daughter Gigi and seven others.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTIwNjA4NjM0MDc1MDU1NjI4/kobe-bryant-10683945-1-402.jpg"
+    },
+    "8":{
+        "name":"Tarana Burke",
+        "dob":"September 12, 1973",
+        "dod":"-",
+        "about":"Tarana Burke is an African American civil rights activist. She's most well-known as the founder of the 'Me Too' movement in 2006 which has blossomed into a worldwide campaign to raise awareness about sexual harassment, abuse, and assault in society. In 2017 Burke and other influential female activists were named 'the silence breakers' by Time magazine. She currently serves at the Girls for Gender Equity in Brooklyn as its senior director.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTUzODgyOTcwMjA0MTUzNTk4/tarana-burke_photo-by-kris-connor_getty-images-for-comedy-central-sqaure.jpg"
+    },
+    "9":{
+        "name":"Alice Ball",
+        "dob":"July 24, 1892",
+        "dod":"December 31, 1916",
+        "about":"Alice Ball was an African American chemist who developed the first successful treatment for those suffering from Hansen’s disease (leprosy). Ball was also the very first African American and the first woman to graduate with a M.S. degree in chemistry from the College of Hawaii (now known as the University of Hawaii). Tragically, Ball died at the young age of 24. During her brief lifetime, she did not get to see the full impact of her discovery. It was not until years after her death that Ball got the proper credit she deserved.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTUzNTUzNjcyOTE0MDg0OTIw/alice-ball-larger.jpg"
+    },
+    "10":{
+        "name":"Sojourner Truth",
+        "dob":"c. 1797",
+        "dod":"November 26, 1883",
+        "about":"Sojourner Truth was an African American abolitionist and women's rights activist best-known for her speech on racial inequalities, 'Ain't I a Woman?'', delivered extemporaneously in 1851 at the Ohio Women's Rights Convention. Truth was born into slavery but escaped with her infant daughter to freedom in 1826. She devoted her life to the abolitionist cause and helped to recruit Black troops for the Union Army. Although Truth began her career as an abolitionist, the reform causes she sponsored were broad and varied, including prison reform, property rights and universal suffrage.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTM1OTk1MzMyODIyNjI2Mjc0/sojourner-truth-portrait-600x600jpg.jpg"
+    },
+    "11":{
+        "name":"Madam C.J. Walker",
+        "dob":"December 23, 1867",
+        "dod":"May 25, 1919",
+        "about":"Madam C.J. Walker invented a line of African American hair products after suffering from a scalp ailment that resulted in her own hair loss. She promoted her products by traveling around the country giving lecture-demonstrations and eventually established Madame C.J. Walker Laboratories to manufacture cosmetics and train sales beauticians. Her business acumen led her to be one of the first American women to become a self-made millionaire. She was also known for her philanthropic endeavors, including a donation toward the construction of an Indianapolis YMCA in 1913. Walker's life was portrayed in the 2020 TV show Self Made, with Octavia Spencer portraying Walker.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTY1NzMyNjEyMTAxMzgzMjYx/madam-cj-walker-sarah-breedlove-the-first-female-self-made-millionaire-in-the-world-poses-for-a-portrait-circa-1914-photo-by-michael-ochs-archivesgetty-images.jpg"
+    },
+    "12":{
+        "name":"Leontyne Price",
+        "dob":"February 10, 1927",
+        "dod":"-",
+        "about":"Renowned for her early stage and television work, Leontyne Price made her opera stage debut at the San Francisco Opera in 1957, and her debut at New York City's Metropolitan Opera House in 1961. One of the first African American singers to earn international acclaim in the field, Price became known for her roles in Il Trovatore, Antony and Cleopatra and Aida, before retiring from the opera in 1985.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwNjYxMzEyMDE0/leontyne-price-9446930-1-402.jpg"
+    },
+    "13":{
+        "name":"Ella Baker",
+        "dob":"December 13, 1903",
+        "dod":"December 13, 1986",
+        "about":"Ella Baker became one of the leading figures of the civil rights movement of the 1950s and '60s. Following her early work for the National Association for the Advancement of Colored People, she was among the founders of Martin Luther King's Southern Christian Leadership Conference in 1957. Three years later, she helped launch the Student Non-Violent Coordinating Committee.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTIwNjA4NjMzNzMyNDk4OTU2/ella-baker-9195848-1-402.jpg"
+    },
+    "14":{
+        "name":"Maya Angelou",
+        "dob":"April 4, 1928",
+        "dod":"May 28, 2014",
+        "about":"Maya Angelou was an American author, actress, screenwriter, dancer, poet and civil rights activist best known for her 1969 memoir, I Know Why the Caged Bird Sings, which made literary history as the first nonfiction bestseller by an African American woman. Angelou received several honors throughout her career, including two NAACP Image Awards in the outstanding literary work (nonfiction) category, in 2005 and 2009.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTQ3NjM5NTA5NjU4Mzc5NjUy/maya_angelou_photo_by_deborah_feingold_corbis_entertainment_getty_533084708.jpg"
+    },
+    "15":{
+        "name":"Harriet Tubman",
+        "dob":"c. 1820",
+        "dod":"March 10, 1913",
+        "about":"orn into slavery in Maryland, Harriet Tubman escaped to freedom in the North in 1849 to become the most famous 'conductor' on the Underground Railroad. Tubman risked her life to lead hundreds of family members and other slaves from the plantation system to freedom on this elaborate secret network of safe houses. A leading abolitionist before the American Civil War, Tubman also helped the Union Army during the war, working as a spy among other roles. After the Civil War ended, Tubman dedicated her life to helping impoverished former slaves and the elderly. In honor of her life and by popular demand, in 2016, the U.S. Treasury Department announced that Tubman will replace Andrew Jackson on the center of a new $20 bill.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTY2MzU4MTM5NDU5ODcyNDQ3/a-portrait-of-harriet-tubman-ca-1820-1913-photo-by--corbis_corbis-via-getty-images.jpg"
+    },
+    "16":{
+        "name":"Coretta Scott King",
+        "dob":"April 27, 1927",
+        "dod":"January 30, 2006",
+        "about":"Coretta Scott met her husband, Martin Luther King Jr., while the two were both students in Boston, Massachusetts. She worked side by side with King as he became a leader of the civil rights movement, establishing her own distinguished career as an activist. Following her husband's assassination in 1968, Coretta founded the Martin Luther King Jr. Center for Nonviolent Social Change, and later successfully lobbied for his birthday to recognized as a federal holiday. She died of complications from ovarian cancer in 2006, at age 78.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxODM3MTMwMjUz/coretta-scott-king-9542067-1-402.jpg"
+    },
+    "17":{  
+        "name":"Rosa Parks",
+        "dob":"February 4, 1913",
+        "dod":"October 24, 2005",
+        "about":"Rosa Parks was a civil rights leader whose refusal to give up her seat to a white passenger on a segregated bus led to the Montgomery Bus Boycott. Her bravery led to nationwide efforts to end racial segregation. Parks was awarded the Martin Luther King Jr. Award by the National Association for the Advancement of Colored People, the Presidential Medal of Freedom and the Congressional Gold Medal.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNzQ5Mzc3NTQ5/rosa-parks-9433715-1-402.jpg"
+    },
+    "18":{
+        "name":"Michelle Obama",
+        "dob":"January 17, 1964",
+        "dod":"-",
+        "about":"Michelle Obama is a lawyer and writer who was the first lady of the United States from 2009 to 2017. She is the wife of the 44th U.S. president, Barack Obama. As first lady, Michelle focused her attention on social issues such as poverty, healthy living and education. Her 2018 memoir, Becoming, discusses the experiences that shaped her, from her childhood in Chicago to her years living in the White House.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTczNjEwODI2NTg5MDg3MTI0/michelle-obama-gettyimages-85246899.jpg"
+    },
+    "19":{
+        "name":"Richard Wright",
+        "dob":"September 4, 1908",
+        "dod":"November 28, 1960",
+        "about":"Richard Wright was an African American writer and poet who published his first short story at the age of 16. Later, he found employment with the Federal Writers' Project and received critical acclaim for Uncle Tom's Children, a collection of four stories. He is well-known for his 1940 bestseller Native Son and his 1945 autobiography, Black Boy.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxODMwMjQ4OTcz/richard-wright-9537751-1-402.jpg"
+    },
+    "20":{
+        "name":"Sarah Boone",
+        "dob":"c. 1832",
+        "dod":"October 29, 1904",
+        "about":"Sarah Boone was an African American dressmaker who made her name by inventing the modern-day ironing board. In her patent application, she wrote that the purpose of her invention was 'to produce a cheap, simple, convenient and highly effective device, particularly adapted to be used in ironing the sleeves and bodies of ladies' garments.' With its approval in 1892, Boone became one of the first African American women to be awarded a patent.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTc0MzM3NTUxMTYxNjMyMzkw/4a93398b2cf95a302ad9f4b23cef4d06.jpg"
+    },
+    "21":{
+        "name":"Joe Louis",
+        "dob":"May 13, 1914",
+        "dod":"April 12, 1981",
+        "about":"Joe Louis became boxing's heavyweight champion with his defeat of James J. Braddock in 1937. Nicknamed the 'Brown Bomber,' his knockout of Germany's Max Schmeling in 1938 made him a national hero, and he established a record by retaining the championship for nearly 12 years. After boxing, Louis endured financial problems while working as a referee and a casino greeter. He died of cardiac arrest in 1981.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTIwNjA4NjMzODg5Nzg1MzU2/joe-louis-9386989-1-402.jpg"
+    },
+    "22":{
+        "name":"Fannie Lou Hamer",
+        "dob":"October 6, 1917",
+        "dod":"March 14, 1977",
+        "about":"Born into a Mississippi sharecropping family, Fannie Lou Hamer spent much of her early life in the cotton fields. She became involved with the Student Non-Violent Coordinating Committee in 1962, through which she led voting drives and relief efforts. In 1964, she co-founded and ran for Congress as a member of the Mississippi Freedom Democratic Party, drawing national attention to their cause at that year's Democratic Convention. Hamer continued her activism through declining health, until her death in 1977",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxMzk2MjY5NTgx/fannie-lou-hamer-205625-1-402.jpg"
+    },
+    "23":{
+        "name":"Mary Jackson",
+        "dob":"April 9, 1921",
+        "dod":"February 11, 2005",
+        "about":"Mathematician Mary Winston Jackson excelled academically in a time of racial segregation. Her math and science skills earned her a position as a 'human computer' for NACA, and she later became NASA's first Black female engineer. Along with serving a vital role in the development of the space program, she helped other women and minorities advance their careers. Jackson died in February 2005 at the age of 83. The story of her groundbreaking contributions to NASA was later dramatized in the 2016 film Hidden Figures.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTQzNDQzMDU1NzU4ODEyMzAz/mary-winston-jackson-nasa-400jpg.jpg"
+    },
+    "24":{
+        "name":"Alex Haley",
+        "dob":"August 11, 1921",
+        "dod":"February 10, 1992",
+        "about":"Alex Haley served in the U.S. Coast Guard for two decades before pursuing a career as a writer. He eventually helmed a series of interviews for Playboy magazine and later co-authored The Autobiography of Malcolm X. The following decade, Haley made history with his book Roots, chronicling his family line from Gambia to the enslaved-holding South. The Pulitzer Prize-winning book was turned into a 1977 miniseries that became one of the most popular TV shows of all time. Major controversy ensued, however, when Haley was accused of plagiarism and presenting historical and genealogical inaccuracies. Nonetheless, Roots has remained a groundbreaking work in the public imagination.",
+        "image":"https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NDg0MDU0NjYwMjg1OTY3/alex-haley-39420-1-402.jpg"
     }
-]
+}

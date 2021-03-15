@@ -10,29 +10,33 @@
     //temporary counter for debugging, this increases when updating a Figure
     let debugCounter = 1;
 
+    let selectedFigures = []
+
     const handleResponse = (xhr, parseResponse = true) => {
 
       const content = document.querySelector("#content");
 
+      content.innerHTML = "Endpoint: " + xhr.responseURL + "<br>";
+
       //handles each code
       switch(xhr.status) {
         case 200://success
-          content.innerHTML = `<b>Success</b>`;
+          content.innerHTML += `<b>Success</b>`;
         break;
         case 201: //create
-          content.innerHTML = `<b>Create</b>`;
+          content.innerHTML += `<b>Create</b>`;
         break;
         case 204://returns as an updated will not give content to show
-          content.innerHTML = `<b>Updated (No Content)</b>`;
+          content.innerHTML += `<b>Updated (No Content)</b>`;
           return; 
         case 400:
-          content.innerHTML = `<b>Bad Request</b>`;
+          content.innerHTML += `<b>Bad Request</b>`;
         break;
         case 404:
-          content.innerHTML = `<b>Resource Not Found</b>`;
+          content.innerHTML += `<b>Resource Not Found</b>`;
         break;
         default:
-          content.innerHTML = `<b>Error Not Implemented</b>`;
+          content.innerHTML += `<b>Error Not Implemented</b>`;
         break;
       }
 
@@ -60,7 +64,7 @@
     };
 
     const sendGetHead = (e) => {
-      //get the url
+
       const url = document.querySelector("#getSelect").value;
 
       const xhr = new XMLHttpRequest();
@@ -94,23 +98,6 @@
       //handles the response
       xhr.onload = () => handleResponse(xhr);
 
-      //creates the data and sends it
-      const jsonData = {
-        name: "New Figure",
-        members: [
-          {
-            number: 400,
-            ability: 0,
-            moves: [1, 2, 8]
-          }, //end of member 1
-          {
-            number: 130,
-            ability: 1,
-            moves: [3, 2, 1, 0]
-          } //end member 1
-        ] //end members
-      }; //end json
-
       //id sets to 0 if you want to update the first one. Again, debug only stuff
       if(newFigure === "update") {
         jsonData.id = 0;
@@ -120,14 +107,12 @@
 
       xhr.send(JSON.stringify(jsonData));
 
-      //stupidness due to being a form
       e.preventDefault();
       return false;
     };
 
     const init = () => {
-      //sets up submission events
-      document.querySelector("#postForm").addEventListener('submit', sendPost);
+      //document.querySelector("#postForm").addEventListener('submit', sendPost);
       document.querySelector("#getForm").addEventListener('submit', sendGetHead);
     };
 
@@ -137,21 +122,48 @@
 </head>
 <body>
   <section id="top">
-    <h3>Be strong, these are dark times....</h3>
+    <h3>Figures in Black History API</h3>
+    <p>This site serves as an interactive way to look at a the "Figures in Black History API", a resource created by Jamal Woods.<br>The resource itself serves as a source to pull information on various black historical figures. Though currently this is a school project, features may be eventually added to allow for user submitted figures to be added to the API's database</p>
+    <br>
+    <p>At the current moment all information regarding historical figures is sourced from <a href="https://www.biography.com/tag/black-history">biography.com</a></p>   
     <form id="getForm" action="/getFigures" method="get">
       <select id='getSelect'>
         <option value='/getFigures'>All Figures</option>
-        <option value='/getFigure?id=0'>Index 0</option>
+        <option value='/getFigure?id=0'>#1</option>
+        <option value='/getFigure?id=1'>#2</option>
+        <option value='/getFigure?id=2'>#3</option>
+        <option value='/getFigure?id=3'>#4</option>
+        <option value='/getFigure?id=4'>#5</option>
+        <option value='/getFigure?id=5'>#6</option>
+        <option value='/getFigure?id=6'>#7</option>
+        <option value='/getFigure?id=7'>#8</option>
+        <option value='/getFigure?id=8'>#9</option>
+        <option value='/getFigure?id=9'>#10</option>
+        <option value='/getFigure?id=10'>#11</option>
+        <option value='/getFigure?id=11'>#12</option>
+        <option value='/getFigure?id=12'>#13</option>
+        <option value='/getFigure?id=13'>#14</option>
+        <option value='/getFigure?id=14'>#15</option>
+        <option value='/getFigure?id=15'>#16</option>
+        <option value='/getFigure?id=16'>#17</option>
+        <option value='/getFigure?id=17'>#18</option>
+        <option value='/getFigure?id=18'>#19</option>
+        <option value='/getFigure?id=19'>#20</option>
+        <option value='/getFigure?id=20'>#21</option>
+        <option value='/getFigure?id=21'>#22</option>
+        <option value='/getFigure?id=22'>#23</option>
+        <option value='/getFigure?id=23'>#24</option>
+        <option value='/getFigure?id=24'>#25</option>
       </select>
       <input type="submit" value="Get Figure(s)" />
     </form>
-    <form id="postForm" action="/postFigure" method="post">
+    <!-- <form id="postForm" action="/postFigure" method="post">
       <select id="postSelect">
         <option value="new">New Figure</option>
         <option value="update">Update Figure 1</option>
       </select>
       <input type="submit" value="Post Figure" />
-    </form>
+    </form> -->
   </section>
   <section id="content">
   </section>
