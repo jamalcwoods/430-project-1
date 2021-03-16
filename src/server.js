@@ -13,6 +13,7 @@ const urlStruct = {
     '/style.css': cssHandler.getCSS,
     '/getFigures': jsonHandler.getFigures,
     '/getFigure': jsonHandler.getFigure,
+    '/getFiguresFavorites': jsonHandler.getFavoriteFigures,
     notFound: jsonHandler.getNotFound,
   },
   HEAD: {
@@ -21,6 +22,7 @@ const urlStruct = {
     notFound: jsonHandler.getNotFoundMeta,
   },
   POST: {
+    '/favoriteFigure': jsonHandler.favoriteFigure,
   }
 };
 

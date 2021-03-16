@@ -7,10 +7,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
   <script type="text/babel">
 
-    //temporary counter for debugging, this increases when updating a Figure
-    let debugCounter = 1;
-
-    let selectedFigures = []
+    let selectedFigure;
 
     const handleResponse = (xhr, parseResponse = true) => {
 
@@ -26,7 +23,7 @@
         case 201: //create
           content.innerHTML += `<b>Create</b>`;
         break;
-        case 204://returns as an updated will not give content to show
+        case 204:
           content.innerHTML += `<b>Updated (No Content)</b>`;
           return; 
         case 400:
@@ -56,6 +53,15 @@
       {
         content.innerHTML += `<p>Message: ${obj.message}</p>`;
       }
+
+      if(obj.figureID){
+        content.innerHTML += `<p>Selected Figure ID: ${obj.figureID}</p>`;
+        selectedFigure = obj.figureID;
+        document.querySelector("#postForm").style.display = "block"
+      } else {
+        document.querySelector("#postForm").style.display = "none"
+      }
+
       //if it's users then displays that instead
       if(obj.figures)
       {
@@ -78,18 +84,16 @@
 
       xhr.send();
 
-      //stupidness due to being a form
       e.preventDefault();
       return false;
     };
 
     const sendPost = (e) => {
-      //get if you're creating a new one (debug only)
-      const newFigure = document.querySelector("#postSelect").value;
+      const figToFav = selectedFigure
 
       const xhr = new XMLHttpRequest();
 
-      xhr.open("post", "/postFigure");
+      xhr.open("post", "/favoriteFigure");
 
       //sets headers for post
       xhr.setRequestHeader('Content-type', 'application/json')
@@ -98,22 +102,17 @@
       //handles the response
       xhr.onload = () => handleResponse(xhr);
 
-      //id sets to 0 if you want to update the first one. Again, debug only stuff
-      if(newFigure === "update") {
-        jsonData.id = 0;
-        jsonData.name = `Update number ${debugCounter}`;
-        debugCounter++;
-      }
-
-      xhr.send(JSON.stringify(jsonData));
+      xhr.send(JSON.stringify(figToFav));
 
       e.preventDefault();
       return false;
     };
 
     const init = () => {
-      //document.querySelector("#postForm").addEventListener('submit', sendPost);
+      document.querySelector("#postForm").addEventListener('submit', sendPost);
       document.querySelector("#getForm").addEventListener('submit', sendGetHead);
+
+      document.querySelector("#postForm").style.display = "none"
     };
 
     window.onload = init;
@@ -129,6 +128,7 @@
     <form id="getForm" action="/getFigures" method="get">
       <select id='getSelect'>
         <option value='/getFigures'>All Figures</option>
+        <option value='/getFiguresFavorites'>All Favorited Figures</option>
         <option value='/getFigure?id=0'>#1</option>
         <option value='/getFigure?id=1'>#2</option>
         <option value='/getFigure?id=2'>#3</option>
@@ -157,13 +157,9 @@
       </select>
       <input type="submit" value="Get Figure(s)" />
     </form>
-    <!-- <form id="postForm" action="/postFigure" method="post">
-      <select id="postSelect">
-        <option value="new">New Figure</option>
-        <option value="update">Update Figure 1</option>
-      </select>
-      <input type="submit" value="Post Figure" />
-    </form> -->
+    <form id="postForm" action="/favoriteFigure" method="post">
+      <input type="submit" value="Favorite Selected Figure"/>
+    </form>
   </section>
   <section id="content">
   </section>

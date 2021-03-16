@@ -1,5 +1,5 @@
 const figures = require('./../client/figures.json');
-
+const favorites = []
 
 // general JSON response function
 const respondJSON = (request, response, status, obj) => {
@@ -23,15 +23,20 @@ const respondMeta = (request, response, status) => {
 };
 
 const getFigures = (request, response) => {
-  const obj = {
-    figures
-  };
-
-  return respondJSON(request, response, 200, obj);
+  return respondJSON(request, response, 200, {figures});
 };
 
 // only returns a 200 code
 const getFiguresMeta = (request, response) => respondMeta(request, response, 200);
+
+const getFavoriteFigures = (request, response, params) => {
+  let favoriteFigures = []
+  for(let index of favorites){
+    favoriteFigures.push(figures[index.replace(/"/g, "")])
+  }
+
+  return respondJSON(request, response, 200, {"figures":favoriteFigures});
+}
 
 // sends a single figure
 const getFigure = (request, response, params) => {
@@ -50,6 +55,7 @@ const getFigure = (request, response, params) => {
   } else {
     status = 200;
     obj.figures = figures[params.id];
+    obj.figureID = params.id
   }
   return respondJSON(request, response, status, obj);
 };
@@ -77,12 +83,38 @@ const getNotFound = (request, response) => {
 // response without the obj
 const getNotFoundMeta = (request, response) => respondMeta(request, response, 404);
 
+const favoriteFigure = (request, response) => {
+
+  let body = []
+
+  request.on('data', (chunk) => {
+    body.push(chunk);
+  });
+
+  request.on('end', () => {
+
+    const data = Buffer.concat(body).toString();
+
+    if(!favorites.includes(data)){
+      favorites.push(data)
+    }
+
+    const obj = {
+      message: 'Figure at Index ' + data + ' has been favorited',
+      id: 'Success',
+    };
+
+    return respondJSON(request, response, 200, obj);
+  })
+}
 
 module.exports = {
   getFigures,
   getFiguresMeta,
   getFigure,
   getFigureMeta,
+  getFavoriteFigures,
   getNotFound,
-  getNotFoundMeta
+  getNotFoundMeta,
+  favoriteFigure
 };
